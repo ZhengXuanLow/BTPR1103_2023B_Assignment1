@@ -156,25 +156,4 @@ public class gameMenu extends Application {
 
 
     }
-
-
-
-
-
-
-
-//    public ImageView titleImage()
-//    {
-//        //Set the background image for the application.
-//        Image titleImage = new Image(gameMenu.class.getResource("title.png").toString(),true);
-//        ImageView imageView = new ImageView(titleImage);
-//        VBox imageHBox = new VBox();
-//        imageHBox.setStyle("-fx-background-color: transparent;");
-//
-//        return imageView;
-//    }
-
-
-
-
 }
