@@ -69,17 +69,17 @@ public class gameMenu extends Application {
         MenuBar menuBar = new MenuBar();
 
         //Create the menu
-        Menu menuMenu = new Menu("Setting");
-        Menu docsMenu = new Menu("Help");
-        Menu whitePaperMenu = new Menu("Exit");
+        Menu settingMenu = new Menu("Setting");
+        Menu helpMenu = new Menu("Help");
+        Menu exitMenu = new Menu("Exit");
 
         //Set the font colour to make it visible
-        menuMenu.setStyle("-fx-color:#000000");
-        docsMenu.setStyle("-fx-color:#000000");
-        whitePaperMenu.setStyle("-fx-color:#000000");
+        settingMenu.setStyle("-fx-color:#000000");
+        helpMenu.setStyle("-fx-color:#000000");
+        exitMenu.setStyle("-fx-color:#000000");
 
         //Insert the menu element
-        menuBar.getMenus().addAll(menuMenu,docsMenu,whitePaperMenu);
+        menuBar.getMenus().addAll(settingMenu,helpMenu,exitMenu);
         //Set MenuBar Background Transparent
         menuBar.setStyle("-fx-background-color: transparent;");
 
@@ -152,8 +152,6 @@ public class gameMenu extends Application {
         titleBox.setStyle("-fx-padding: 10px;");
 
         return titleBox;
-
-
 
     }
 }
